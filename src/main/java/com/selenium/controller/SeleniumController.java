@@ -44,7 +44,7 @@ public class SeleniumController {
 	}
 
 	public static WebDriver getDriver() {
-		String exePath = "E:\\Study\\Selenium\\SupportingJars\\chromedriver_win32\\chromedriver.exe";
+		String exePath = "src/main/resources/chromedriver.exe";
 		System.setProperty("webdriver.chrome.driver", exePath);
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
